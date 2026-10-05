@@ -1,0 +1,31 @@
+name: scope-guard
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+
+permissions:
+  contents: read
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check PR title and scope checklist
+        env:
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_BODY: ${{ github.event.pull_request.body }}
+        run: |
+          if ! printf '%s' "$PR_TITLE" | grep -Eq '^(REQ-[0-9]+|CR-[0-9]+|fix|docs|chore): .+'; then
+            echo "::error::Tieu de PR phai bat dau bang 'REQ-xx: ', 'CR-xx: ', 'fix: ', 'docs: ' hoac 'chore: '."
+            exit 1
+          fi
+          if ! printf '%s' "$PR_BODY" | grep -Eq 'Scope check: *IN'; then
+            echo "::error::Noi dung PR phai co dong 'Scope check: IN' (chay prompt scope-check truoc)."
+            exit 1
+          fi
+          if printf '%s' "$PR_BODY" | grep -Eq '^- \[ \]'; then
+            echo "::error::Con muc chua tich trong checklist cua PR."
+            exit 1
+          fi
+          echo "Scope guard passed."

@@ -1,0 +1,14 @@
+# Nguồn nội bộ dùng để sinh kb/ (không công khai)
+_source/
+
+# Thư mục luyện tập cục bộ: case thử, bản nháp
+workspace/
+
+# Bí mật và rác
+.env
+.env.*
+*.pem
+node_modules/
+.DS_Store
+Thumbs.db
+prompts/_*.txt
