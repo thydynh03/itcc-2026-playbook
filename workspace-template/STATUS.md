@@ -4,6 +4,8 @@ Cập nhật file này mỗi khi đổi giai đoạn. Mọi công cụ AI đọc
 
 - **Giai đoạn:** PRE-CASE
   <!-- PRE-CASE | R1-DISCOVER | GAP-1 | R2-BUILD | GAP-2 | R3-DELIVER -->
+- **Nhận case lúc:** chưa
+  <!-- YYYY-MM-DD HH:MM — trong 4 giờ sau mốc này không viết mã, không bàn công nghệ -->
 - **Đóng băng tính năng:** chưa
   <!-- chưa | từ YYYY-MM-DD HH:MM -->
 - **Hạn nộp kế tiếp của BTC:** 26/10/2026 (proposal Vòng 1) — giờ chốt: chưa rõ

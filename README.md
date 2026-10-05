@@ -10,7 +10,7 @@ Mục đích: mỗi thành viên clone về là hiểu cuộc thi trong 30 phút
 
 | | |
 |---|---|
-| Vai được chấm | IT Consultant biết build: hiểu bài toán kinh doanh, dùng AI có kiểm soát, quyết định kỹ thuật có cơ sở, giải thích và chịu trách nhiệm |
+| Vai | "Vào vai chuyên gia tư vấn công nghệ (IT Consultant)": hiểu nhu cầu kinh doanh, làm việc hiệu quả với AI, lựa chọn kỹ thuật có cơ sở, giải thích và chịu trách nhiệm về giải pháp |
 | Đề bài | Một case study do BTC gửi qua email ngày 19/10, bằng tiếng Anh. Đội không tự chọn đề tài |
 | Hạn đăng ký | Hết ngày 18/10/2026 |
 | Vòng 1 — Discover | 19/10–26/10 · nộp proposal |
@@ -26,7 +26,7 @@ Chi tiết và nguồn: [kb/00-overview-and-facts.md](kb/00-overview-and-facts.m
 |---|---|
 | [START_HERE.md](START_HERE.md) | Lộ trình đọc 30 phút và 10 câu tự kiểm tra |
 | [kb/](kb/INDEX.md) | Kiến thức: cuộc thi, giám khảo, khung xử lý case, MVP, demo, pitch, Q&A, playbook từng vòng |
-| [prompts/](prompts/) | 11 prompt dùng với mọi công cụ AI |
+| [prompts/](prompts/) | 14 prompt dùng với mọi công cụ AI |
 | [AGENTS.md](AGENTS.md) | Luật cho AI khi làm việc trong repo này |
 | [workspace-template/](workspace-template/) | Khung repo làm việc private: luật phạm vi, `case/`, `scope/`, nhật ký |
 | [templates/](templates/) | Mẫu proposal, đánh giá tác động thay đổi, README cho người chấm |
@@ -66,7 +66,7 @@ Lệnh này chép luật phạm vi, prompt, mẫu và khung `case/`, `scope/`, `
 
 1. **Hiểu trước, giải sau.** Bốn giờ đầu sau khi nhận case không viết mã.
 2. **Đề bài chỉ nằm trong `case/`.** Không suy diễn từ trí nhớ.
-3. **Không có mã yêu cầu `REQ-xx` thì không làm.**
+3. **Không có mã truy vết thì không làm.** Mỗi việc gắn với một yêu cầu của case (`REQ`), một tiêu chí chấm chính thức (`CRIT`), hoặc một chuẩn bắt buộc của đội (`STD`).
 4. **Build less, prove more.** Một luồng chạy trọn, có số đo.
 5. **Proof over promise.** Mỗi tuyên bố có một bằng chứng mở ra được.
 

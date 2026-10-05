@@ -24,14 +24,14 @@
 | S6 | https://netcompany.com/its-not-just-coding-its-creating-an-impact/ | Qua công cụ trích xuất | Trung bình |
 | S7 | https://www.facebook.com/code.mely | Bị chặn đăng nhập; chỉ thấy tiêu đề một bài "TIMELINE IT CONSULTANT CHALLENGE 2026 - TỪ Ý TƯỞNG ĐẾN FINAL" | Không đọc được nội dung |
 
-**Việc đội phải tự làm:** đọc thủ công các bài đăng trên Facebook Code MeLy và Netcompany Vietnam (recap 2024/2025, bài timeline 2026). Tôi không đọc được, và không tìm thấy thông tin công khai nào về đội thắng các mùa trước → mọi thứ về "đội thắng trước đây" là **[UNKNOWN]**.
+**Việc đội phải tự làm:** đọc thủ công các bài đăng trên Facebook Code MeLy và Netcompany Vietnam (recap 2024/2025, bài timeline 2026). Các bài này bị chặn đăng nhập nên chưa đọc được, và chưa tìm thấy thông tin công khai nào về đội thắng các mùa trước → mọi thứ về "đội thắng trước đây" là **[UNKNOWN]**.
 
-## Bốn điều chỉnh so với đề bài bạn giao cho tôi
+## Bốn lưu ý khi đọc tài liệu này
 
 1. **Đây không phải hackathon 24 giờ.** Mỗi vòng dài khoảng 5–7 ngày [FACT, S1]. Các checklist theo giờ (30 phút, 4 giờ, 8 giờ, 24 giờ) vẫn có trong tài liệu, nhưng được dùng cho *ngày đầu nhận case* và cho *số giờ làm việc thực còn lại*, không phải toàn bộ vòng.
-2. **Trọng số chấm điểm chưa có.** BTC sẽ email tiêu chí trước mỗi vòng [FACT, S2]. Bộ trọng số ở Mục 17 là [ASSUMPTION] do bạn đề xuất; phải thay ngay khi có email.
+2. **Trọng số chấm điểm chưa có.** BTC sẽ email tiêu chí trước mỗi vòng [FACT, S2]. Bộ trọng số ở Mục 17 là [ASSUMPTION] của đội; phải thay ngay khi có email.
 3. **Không chọn idea trước khi có case.** Vòng 1 chấm ý tưởng "sáng tạo, khả thi và phù hợp nhất với bài toán" [FACT, S1]. Năm concept ở Mục 6 là *hình dạng giải pháp* để lắp vào case, không phải bài thi viết sẵn.
-4. **Tôi không cam kết được "xác suất cao nhất".** Tài liệu này tối ưu những gì kiểm soát được: quy trình, bằng chứng, độ sẵn sàng. Chất lượng đọc case và thực thi trong 5 tuần vẫn quyết định.
+4. **Không có gì bảo đảm chức vô địch.** Tài liệu này tối ưu những gì kiểm soát được: quy trình, bằng chứng, độ sẵn sàng. Chất lượng đọc case và thực thi trong 5 tuần vẫn quyết định.
 
 ## Tóm tắt một trang
 

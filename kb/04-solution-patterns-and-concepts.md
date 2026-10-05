@@ -1,6 +1,6 @@
 # 5. WINNING SOLUTION PATTERNS
 
-Toàn bộ điểm số trong mục này là **[INFERENCE]**: đánh giá của tôi về mức phù hợp với format "IT Consultant + AI + MVP + bài toán kinh doanh thật". Điểm không thay thế được việc khớp với case.
+Toàn bộ điểm số trong mục này là **[INFERENCE]**: đánh giá của đội về mức phù hợp với format "IT Consultant + AI + MVP + bài toán kinh doanh thật". Điểm không thay thế được việc khớp với case.
 
 ## 5.1 Pattern selector — chọn theo nút thắt của case
 
@@ -105,7 +105,7 @@ Ghép pattern 12 + 11.
 
 ## 6.2 TOP 1 — Most likely Champion: Concept A, Decision Desk
 
-A và B hòa nhau về điểm trung bình. Tôi chọn A vì nó hơn ở các tiêu chí nhiều khả năng nặng ký (giá trị kinh doanh, Responsible AI, pitch) và vì **B chính là lõi của A**: nếu thiếu thời gian, A thu gọn thành B mà không phải làm lại. B là phương án lùi, không phải phương án cạnh tranh.
+A và B hòa nhau về điểm trung bình. A được chọn vì nó hơn ở các tiêu chí nhiều khả năng nặng ký (giá trị kinh doanh, Responsible AI, pitch) và vì **B chính là lõi của A**: nếu thiếu thời gian, A thu gọn thành B mà không phải làm lại. B là phương án lùi, không phải phương án cạnh tranh.
 
 Lý do chọn A, theo thứ tự quan trọng:
 

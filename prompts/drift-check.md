@@ -8,8 +8,8 @@
 
 ## Việc cần làm
 
-1. **Việc ngoài phạm vi.** Commit, file hoặc màn hình nào không gắn với một `REQ` thuộc Must prove hoặc Should.
-2. **Must prove chưa được chạm.** `REQ` Must prove nào chưa có commit, chưa có test, chưa có bước demo.
+1. **Việc ngoài phạm vi.** Commit, file hoặc màn hình nào không gắn với một dòng `REQ` / `CRIT` / `STD` thuộc Must prove hoặc Should.
+2. **Must prove chưa được chạm.** Dòng Must prove nào (kể cả `STD-xx`) chưa có commit, chưa có test, chưa có bằng chứng hoặc bước demo.
 3. **Trôi khỏi bài toán.** So thứ đang được build với problem statement và người dùng chính trong `PROBLEM_BRIEF.md`. Sản phẩm còn giải đúng vấn đề đó cho đúng người đó không?
 4. **Vi phạm cổng giai đoạn.** Có việc nào trái với giai đoạn trong `STATUS.md` không (ví dụ thêm tính năng trong thời gian đóng băng)?
 5. **Nợ ghi chép.** Thư viện hoặc thay đổi kiến trúc nào chưa có mục trong `DECISIONS.md`; ngày nào chưa có mục AI Journal.

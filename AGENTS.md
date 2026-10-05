@@ -31,8 +31,11 @@ File trong `prompts/`; Claude Code và Antigravity gọi được bằng `/tên`
 | `req-trace` | Sau khi thêm hoặc sửa tính năng |
 | `decision` | Trước một lựa chọn kỹ thuật |
 | `journal` | Cuối mỗi phiên làm việc với AI |
+| `eval-set` | Trước khi tinh chỉnh prompt; sau mỗi lần đổi prompt hoặc model |
+| `rai-audit` | Giữa vòng Build, trước khi đóng băng |
 | `red-team` | Giữa và cuối mỗi vòng |
 | `judge` | Trước khi nộp |
+| `pitch-critique` | Sau khi đội đã tự làm slide |
 | `change-request` | Khi nhận yêu cầu thay đổi ở Vòng 3 |
 | `pre-submit` | 24 giờ trước hạn nộp |
 | `drift-check` | Mỗi tối trong vòng Build |

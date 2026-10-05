@@ -10,6 +10,8 @@ BTC khuyến khích dùng AI, yêu cầu đội "hiểu, kiểm chứng và ch�
 
 ## 8.2 Mười agent
 
+Prompt có sẵn trong `prompts/` cho từng vai: Product → `case-breakdown`, `req-trace`, `scope-check` · Architect → `decision` · QA → `eval-set` · Security và Responsible AI → `rai-audit` · Red Team → `red-team` · Pitch → `pitch-critique` · Judge → `judge`. Vai Research và Coding không có prompt riêng: dùng trực tiếp, theo ba luật ở 8.1 và `AGENTS.md` của workspace.
+
 "Agent" ở đây là một vai kèm prompt chuẩn, không nhất thiết là hệ thống tự động.
 
 | Agent | Việc | Đầu vào | Đầu ra | Người kiểm chứng và cách kiểm | AI không được |

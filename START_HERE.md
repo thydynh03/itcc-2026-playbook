@@ -29,7 +29,7 @@ Mô tả ba vai: [kb/07-team-of-3.md](kb/07-team-of-3.md).
 Trả lời trước khi mở đáp án. Sai từ 3 câu trở lên thì đọc lại lộ trình.
 
 **1. Cuộc thi chấm vai nào: developer, product builder hay IT consultant?**
-<details><summary>Đáp án</summary>IT consultant biết build. Kỹ thuật là điều kiện cần; thứ được chấm là hiểu bài toán kinh doanh, quyết định có cơ sở, giải thích và chịu trách nhiệm.</details>
+<details><summary>Đáp án</summary>IT consultant biết build. BTC viết rõ đội "vào vai chuyên gia tư vấn công nghệ" và cần hiểu nhu cầu kinh doanh, lựa chọn kỹ thuật có cơ sở, giải thích và chịu trách nhiệm về giải pháp. Việc kỹ thuật chỉ là điều kiện cần là suy luận của đội, không phải lời của BTC.</details>
 
 **2. Case study đến khi nào, qua đâu, bằng ngôn ngữ gì?**
 <details><summary>Đáp án</summary>Ngày 19/10, qua email, bằng tiếng Anh. BTC không công bố trước để bảo đảm công bằng.</details>
@@ -43,8 +43,8 @@ Trả lời trước khi mở đáp án. Sai từ 3 câu trở lên thì đọc 
 **5. Trong 4 giờ đầu sau khi nhận case, đội không được làm gì?**
 <details><summary>Đáp án</summary>Không viết mã, không bàn công nghệ. Trong 30 phút đầu mỗi người đọc case một mình và không dùng AI.</details>
 
-**6. Bạn muốn làm một tính năng nhưng không gắn được nó với mã yêu cầu `REQ-xx` nào. Làm gì?**
-<details><summary>Đáp án</summary>Dừng. Ghi vào `scope/PARKING_LOT.md` và báo P1. Không làm.</details>
+**6. Bạn muốn làm một tính năng nhưng không gắn được nó với mã nào trong `scope/REQUIREMENTS.md` (`REQ`, `CRIT` hoặc `STD`). Làm gì?**
+<details><summary>Đáp án</summary>Dừng. Ghi vào `scope/PARKING_LOT.md` và báo P1. Không làm. Ba loại mã: `REQ` là yêu cầu của case, `CRIT` là tiêu chí chấm chính thức, `STD` là chuẩn bắt buộc của đội như bộ ca thử AI và audit.</details>
 
 **7. AI Journal ghi từ khi nào và phải có gì?**
 <details><summary>Đáp án</summary>Từ ngày 19/10, mỗi ngày. Có prompt, kết quả, cách kiểm chứng, và cả những lần AI sai hoặc bị đội bác.</details>

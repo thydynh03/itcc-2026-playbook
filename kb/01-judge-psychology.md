@@ -1,6 +1,6 @@
 # 2. JUDGE PSYCHOLOGY
 
-Toàn bộ mục này là **[INFERENCE]**: tôi không biết giám khảo là ai. Tôi mô phỏng một consultant hoặc architect cấp senior của một công ty tư vấn CNTT, người hằng ngày phải chịu trách nhiệm về tiến độ, chất lượng và khách hàng.
+Toàn bộ mục này là **[INFERENCE]**: chưa biết giám khảo là ai. Phần dưới mô phỏng một consultant hoặc architect cấp senior của một công ty tư vấn CNTT, người hằng ngày phải chịu trách nhiệm về tiến độ, chất lượng và khách hàng. Các đoạn xưng "tôi" ở 2.1–2.3 là lời của giám khảo giả định đó.
 
 ## 2.1 Sau 20 proposal đầu tiên, tôi loại những đội nào?
 

@@ -15,7 +15,8 @@ Workspace này phải là repo **private**. Nó chứa case study và giải ph�
 | `case/CLARIFICATIONS.md` | Câu hỏi đã gửi BTC và trả lời (`CLAR-xx`) | P1 |
 | `case/CHANGE_REQUESTS.md` | Yêu cầu thay đổi ở Vòng 3 (`CR-xx`) | Chỉ dán từ BTC |
 | `scope/PROBLEM_BRIEF.md` | Vấn đề, người dùng chính, Must prove | Cả ba đồng ý |
-| `scope/REQUIREMENTS.md` | Ma trận truy vết `REQ-xx` | Cả ba đồng ý |
+| `scope/REQUIREMENTS.md` | Ma trận truy vết: `REQ-xx`, `CRIT-xx`, `STD-xx` | Cả ba đồng ý |
+| `eval/GOLD_CASES.md` | Bộ ca thử AI viết tay và kết quả từng lần chạy | P1 + P2 |
 | `scope/SCOPE.md` | Must prove / Should / Nice / KHÔNG LÀM | Cả ba đồng ý |
 | `scope/ASSUMPTIONS.md` | Giả định và cách kiểm chứng | P1 |
 | `scope/PARKING_LOT.md` | Ý tưởng ngoài phạm vi | Ai cũng thêm được |
@@ -28,7 +29,12 @@ Kiến thức nền nằm ở repo playbook: https://github.com/thydynh03/itcc-2
 1. **Đọc trước khi làm.** Đầu mỗi phiên đọc `STATUS.md`, `scope/PROBLEM_BRIEF.md`, `scope/SCOPE.md`. Chỉ mở file khác khi việc đang làm cần đến.
 2. **Đề bài chỉ nằm trong `case/`.** Không suy diễn nội dung case từ trí nhớ, từ playbook, hay từ "thông lệ ngành". Thứ tự ưu tiên khi mâu thuẫn: `CHANGE_REQUESTS.md` → `CLARIFICATIONS.md` → `CASE.md` → mọi thứ khác.
 3. **Chế độ PRE-CASE.** Nếu `case/CASE.md` còn trống: không giả định case, không đề xuất giải pháp cụ thể, không viết mã sản phẩm.
-4. **Không có `REQ-ID` thì không làm.** Mọi việc phải gắn với một `REQ-xx` trong `scope/REQUIREMENTS.md`. Không gắn được → dừng, soạn dòng cho `scope/PARKING_LOT.md`, báo P1. Không tự tạo `REQ` mới để hợp thức hóa.
+4. **Không có mã truy vết thì không làm.** Mọi việc phải gắn với một dòng trong `scope/REQUIREMENTS.md`, thuộc một trong ba loại:
+   - `REQ-xx` — yêu cầu hoặc ràng buộc của case;
+   - `CRIT-xx` — tiêu chí chấm chính thức trong `case/CRITERIA.md`;
+   - `STD-xx` — chuẩn bắt buộc của đội (bộ ca thử AI, kiểm soát AI, audit, dự phòng, README cho người chấm).
+
+   Việc hỗ trợ (deploy, test, dữ liệu seed, tài liệu) được làm khi nêu được nó phục vụ dòng nào. Không gắn được → dừng, soạn dòng cho `scope/PARKING_LOT.md`, báo P1. Không tự tạo mã mới để hợp thức hóa.
 5. **Danh sách KHÔNG LÀM là cứng.** Không đề xuất lại một mục trong đó, trừ khi có `CR-xx` chính thức.
 6. **Cổng theo giai đoạn.** Chỉ làm loại việc mà giai đoạn trong `STATUS.md` cho phép (bảng bên dưới).
 7. **Bốn nhãn.** Mọi nhận định về case hoặc cuộc thi mang một nhãn: `FACT` (kèm `Px`, `CLAR-xx`, `CR-xx` hoặc nguồn), `INFERENCE`, `ASSUMPTION`, `UNKNOWN`. Không bịa số liệu, người liên quan, hệ thống, quy định. Cái gì case không nói là `UNKNOWN`.
@@ -46,7 +52,7 @@ Kiến thức nền nằm ở repo playbook: https://github.com/thydynh03/itcc-2
 | `R1-DISCOVER` · 4 giờ đầu | Đọc case, problem statement, câu hỏi làm rõ | Viết mã, bàn công nghệ |
 | `R1-DISCOVER` | Phân tích, proposal, spike kỹ thuật, prototype | Mã sản phẩm |
 | `GAP-1` | Khung dự án, dữ liệu tổng hợp, ca thử | Việc phụ thuộc yêu cầu Vòng 2 chưa công bố |
-| `R2-BUILD` | Mã sản phẩm cho `REQ` Must prove và Should | `REQ` nhóm Nice khi Must prove chưa xong |
+| `R2-BUILD` | Mã sản phẩm cho các dòng Must prove và Should | Dòng nhóm Nice khi Must prove chưa xong |
 | `GAP-2` | Sửa lỗi, tăng khả năng thay đổi, luyện pitch | Tính năng mới |
 | `R3-DELIVER` | Việc gắn với `CR-xx`; hoàn thiện đường demo | Tính năng mới ngoài `CR-xx` |
 | Đóng băng (48 giờ trước hạn) | Sửa lỗi trên đường demo, tài liệu | Mọi tính năng |
@@ -56,8 +62,8 @@ Kiến thức nền nằm ở repo playbook: https://github.com/thydynh03/itcc-2
 Chạy trước mỗi việc (prompt `scope-check`):
 
 ```
-1. Gắn với REQ-ID nào?                          không có → OUT
-2. REQ đó ở Must prove / Should?                Nice / KHÔNG LÀM → OUT
+1. Gắn với mã nào (REQ / CRIT / STD)?           không có → OUT
+2. Dòng đó ở Must prove / Should?               Nice / KHÔNG LÀM → OUT
 3. Giai đoạn hiện tại cho phép loại việc này?   không → OUT (hoãn)
 4. Mâu thuẫn với CASE / CLARIFICATIONS / CR?    có → SAI ĐỀ, dừng
 Kết luận: IN · OUT → PARKING_LOT · UNCLEAR → hỏi P1
@@ -78,6 +84,6 @@ AI đưa phương án và khuyến nghị; AI không quyết thay đội.
 
 ## Quy ước
 
-- Commit và tiêu đề PR: `REQ-07: mô tả`, `CR-01: mô tả`, `fix: …`, `docs: …`, `chore: …`.
+- Commit và tiêu đề PR: `REQ-07: mô tả`, `CRIT-02: …`, `STD-01: …`, `CR-01: …`, `fix: …`, `docs: …`, `chore: …`.
 - Trả lời thành viên bằng tiếng Việt. Nội dung nộp cho BTC (proposal, slide, README sản phẩm) bằng tiếng Anh.
-- Prompt nằm trong `prompts/`: `onboard`, `case-breakdown`, `scope-check`, `req-trace`, `decision`, `journal`, `red-team`, `judge`, `change-request`, `pre-submit`, `drift-check`.
+- Prompt nằm trong `prompts/`: `onboard`, `case-breakdown`, `scope-check`, `req-trace`, `decision`, `journal`, `eval-set`, `rai-audit`, `red-team`, `judge`, `pitch-critique`, `change-request`, `pre-submit`, `drift-check`.

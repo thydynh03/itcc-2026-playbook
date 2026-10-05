@@ -22,7 +22,10 @@ Bốn giờ đầu không viết mã.
 | Trước một lựa chọn kỹ thuật | Ghi quyết định | `decision` |
 | Cuối phiên làm việc với AI | Ghi nhật ký | `journal` |
 | Mỗi tối (vòng Build) | Kiểm tra trôi | `drift-check` |
+| Trước khi tinh chỉnh prompt; sau mỗi lần đổi prompt | Dựng và chạy bộ ca thử AI | `eval-set` |
+| Giữa vòng Build, trước khi đóng băng | Rà soát Responsible AI và bảo mật | `rai-audit` |
 | Giữa và cuối vòng | Phản biện | `red-team`, `judge` |
+| Sau khi tự làm slide | Phản biện bài thuyết trình | `pitch-critique` |
 | 24 giờ trước hạn nội bộ | Kiểm tra nộp bài | `pre-submit` |
 | Nhận yêu cầu thay đổi | Đánh giá tác động | `change-request` |
 
@@ -30,6 +33,7 @@ Bốn giờ đầu không viết mã.
 
 - `case/` — đề bài. Không sửa.
 - `scope/` — phạm vi đã chốt. Sửa khi cả ba đồng ý.
+- `eval/` — bộ ca thử AI và kết quả từng lần chạy.
 - `docs/memory/` — tiến độ, quyết định, bài học, AI Journal, rủi ro.
 - `prompts/`, `templates/` — chép từ playbook.
 - `AGENTS.md` — 12 luật cho AI.

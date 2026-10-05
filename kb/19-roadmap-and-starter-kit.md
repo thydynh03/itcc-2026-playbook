@@ -87,7 +87,7 @@ Hôm nay là thứ Hai 05/10/2026. Còn 13 ngày đến hạn đăng ký, 14 ng�
 
 | Thành phần | Nội dung | Ghi chú |
 |---|---|---|
-| Prompt library | Chín prompt theo vai (Mục 8) + Case Breakdown Engine + Red Team | Quy trình, không phải giải pháp |
+| Prompt library | 14 prompt trong `prompts/` của repo này (danh sách ở `AGENTS.md`) | Đã có sẵn. Quy trình, không phải giải pháp |
 | Architecture templates | Sơ đồ một trang để điền; mẫu decision record; mẫu sơ đồ luồng dữ liệu | Tài liệu |
 | UI components | Thư viện giao diện mã nguồn mở; thành phần Decision Card, hàng đợi, bảng audit ở dạng tổng quát | Ghi nguồn và giấy phép |
 | Auth boilerplate | Bộ chọn vai cho demo, hoặc dịch vụ xác thực có sẵn | Không tự viết xác thực |

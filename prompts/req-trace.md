@@ -10,7 +10,8 @@
 
 1. **Độ phủ từ case xuống.** Liệt kê mọi câu trong case nêu một nhu cầu, mục tiêu hoặc ràng buộc. Câu nào chưa có `REQ` tương ứng → báo "thiếu REQ", kèm số đoạn `Px` và trích nguyên văn.
 2. **Độ phủ từ REQ lên.** `REQ` nào không truy được về một đoạn case, một trả lời của BTC, hoặc một change request → báo "REQ không có nguồn". Đây là dấu hiệu tự thêm yêu cầu.
-3. **Độ phủ xuống sản phẩm.** Với mỗi `REQ` thuộc Must prove hoặc Should: đã có tính năng chưa, đã có test chưa, đã có bước demo chưa.
+3. **Độ phủ xuống sản phẩm.** Với mỗi `REQ` thuộc Must prove hoặc Should: đã có tính năng chưa, đã có test chưa, đã có bước demo chưa. Với mỗi `CRIT-xx` và `STD-xx`: cột "Bằng chứng" đã có thật chưa.
+   - Nếu `case/CRITERIA.md` có tiêu chí mà bảng CRIT chưa có dòng tương ứng → báo "thiếu CRIT".
 4. **Mã không có REQ.** Tính năng hoặc màn hình nào trong mã không gắn với `REQ` nào → báo "làm ngoài phạm vi".
 
 ## Trả ra

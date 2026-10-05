@@ -41,8 +41,11 @@ AI không được đề xuất lại các mục dưới đây, trừ khi có `C
 
 ## Không bao giờ cắt
 
-- Bước phê duyệt của con người và audit.
-- Bộ ca thử AI (có thể giảm số ca, không bỏ).
+- `STD-02` — bước phê duyệt của con người và audit.
+- `STD-01` — bộ ca thử AI (có thể giảm số ca, không bỏ).
+- `STD-03` — không dữ liệu cá nhân thật, không khóa bí mật.
+
+Các dòng `STD-xx` và `CRIT-xx` trong `REQUIREMENTS.md` thuộc phạm vi theo nhóm ghi ở đó; không cần chép lại vào các bảng trên.
 
 ## Thang cắt khi thiếu thời gian
 

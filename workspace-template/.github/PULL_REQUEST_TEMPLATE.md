@@ -1,8 +1,8 @@
-<!-- Tiêu đề PR: "REQ-07: mô tả" | "CR-01: mô tả" | "fix: …" | "docs: …" | "chore: …" -->
+<!-- Tiêu đề PR: "REQ-07: mô tả" | "CRIT-02: …" | "STD-01: …" | "CR-01: …" | "fix: …" | "docs: …" | "chore: …" -->
 
 ## Việc này là gì
 
-REQ / CR:
+Mã truy vết (REQ / CRIT / STD / CR):
 
 Scope check: <!-- ghi IN sau khi chạy prompt scope-check; kết quả khác IN thì không mở PR -->
 

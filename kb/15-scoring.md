@@ -2,7 +2,7 @@
 
 ## 17.1 Trọng số
 
-Trọng số chính thức: **[UNKNOWN]** — BTC email trước mỗi vòng [FACT S2]. Bảng dưới dùng bộ trọng số bạn đề xuất, là **[ASSUMPTION]**. Thay ngay khi có tiêu chí thật; nhiều khả năng mỗi vòng một bộ khác nhau.
+Trọng số chính thức: **[UNKNOWN]** — BTC email trước mỗi vòng [FACT S2]. Bảng dưới dùng bộ trọng số tạm của đội, là **[ASSUMPTION]**. Thay ngay khi có tiêu chí thật; nhiều khả năng mỗi vòng một bộ khác nhau.
 
 Những gì đã biết chắc về hướng chấm [FACT S1, S2]:
 - Vòng 1: sáng tạo, khả thi, phù hợp với bài toán.
